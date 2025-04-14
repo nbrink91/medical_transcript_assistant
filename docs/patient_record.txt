@@ -1,0 +1,43 @@
+Patient Record Template
+
+Patient Info:
+Name: Henry Emmersonn
+Age: 34
+Sex: Male
+Patient ID: 52431
+DOB: 09/11/1985
+
+Appointment Reason:
+Sick Visit – Rash
+
+Allergies:
+Not discussed
+
+History of Present Illness (HPI):
+The patient is a 39-year-old male presenting with a rash on the right forearm that began two days ago. It started as a small patch and has spread with inflammation. The patient reports severe itching and occasional stinging. No changes in personal care products noted. He did go on a recent hiking trip and may have been exposed to environmental irritants. Tried cortisone cream with no relief. Reports increased use of his inhaler post-exposure but no current wheezing.
+
+Review of Systems (ROS):
+Skin: Rash present, itchy, with stinging sensations
+Respiratory: Increased inhaler use post-hiking; denies current wheezing
+Cardiovascular: No symptoms reported
+
+Physical Exam:
+Skin: Red raised rash on medial aspect of right forearm, approx. 8x6 cm, no drainage or vesicles, with excoriations; erythematous and warm to touch
+Respiratory: Clear breath sounds, no wheezes, good air movement
+Cardiovascular: Regular rate and rhythm, no murmurs
+
+Assessment and Plan:
+Contact Dermatitis
+Likely due to environmental exposure during hiking.
+Prescribe a stronger topical corticosteroid cream.
+Advise patient to avoid potential irritants and monitor symptoms.
+Follow-up if no improvement in 7 days or worsening symptoms.
+
+Asthma
+Stable overall with minor post-exposure exacerbation.
+Continue as-needed use of inhaler; ensure adequate supply.
+Monitor for future exacerbations. Seek re-evaluation if symptoms worsen.
+
+Medications:
+Albuterol Inhaler – Rescue use for asthma symptoms
+Prescribed Topical Corticosteroid – For rash management

@@ -1,0 +1,70 @@
+=========================
+Model: gpt-4
+Timestamp: 20250414T182038Z
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Doctor: Hi Henry, what brings you in today?
+Patient: Hey Doc. I've got this rash that showed up on my arm.
+Doctor: How long have you had it?
+Patient: Started like two days ago, just a little red spot at first, but now it's spread and it's really itchy. Sometimes it kind of stings.
+Doctor: Any new soaps, detergents, or lotions you've been using?
+Patient: Nope, nothing new. But I did go hiking last weekend and got into some brush and stuff.
+Doctor: Got it. Did you try anything to treat it?
+Patient: Yeah, I had some cortisone cream, but it didn't help much.
+Doctor: Have you noticed any breathing issues since you mentioned hiking?
+Patient: Actually yeah. I've been using my inhaler more than usual since then, but I'm okay now. No wheezing right now.
+Doctor: Alright. Let's take a look at the rash. [pause] Looks like contact dermatitis on medial aspect of right forearm, approx. 8x6 cm, no drainage or vesicles, with excoriations; erythematous and warm to touch.
+Patient: Is it serious?
+Doctor: It doesn't look infected, so that's good. I'll prescribe a stronger topical steroid and have you avoid irritants. If it doesn't get better in a week or gets worse, come back.
+Patient: Sounds good.
+Doctor: And keep using your inhaler as needed. Make sure you've got enough at home.
+Patient: Will do. Thanks.
+
+=========================
+Response
+=========================
+- Patient Info
+    - Name: Henry
+    - Age: Not discussed
+    - Sex: Male
+    - ID: Not discussed
+    - DOB: Not discussed
+
+- Appointment Reason: Patient sought consultation for a new rash that developed on his arm.
+
+- Allergies: Not discussed
+
+- History of Present Illness (HPI): Patient reports a rash that started as a small, red area two days ago (medically termed "macule"), which has since spread, increased in redness and itchiness, and occasionally produces a stinging sensation. The rash did not respond to over-the-counter cortisone cream. Patient admits to have gone hiking and exposure to vegetation a few days prior to the symptoms. The patient also noted an increase in the use of his inhaler, suggesting a probable increase in asthma incidents after hiking. 
+
+- Review of Systems (ROS): Patient reported no new exposure to soaps, detergents, or lotions. Had recent outdoor activities specifically hiking. The patient also reported an increased use of his inhaler.
+
+- Physical Exam: Examination revealed a dermatitis on the medial aspect of the patient's right forearm, approximately 8x6 cm. The area exhibits excoriations, is erythematous and warm to touch, yet shows no signs of infection (no drainage or vesicles present). 
+
+- Assessment and Plan: 
+1. Diagnosed with Contact Dermatitis: Contact with a likely outdoor irritant such as vegetation during his recent hiking trip might have instigated the condition. He will be prescribed a stronger topical steroid. He is advised to avoid irritants and to return if the condition worsens or doesn't improve in a week.
+2. Asthma Incident: The patient reported an increase in the need for an inhaler since hiking, indicating a potential asthma incident. The patient is encouraged to continue using the inhaler as needed and to ensure its availability at home.
+
+- Medications 
+   1. Cortisone cream (used for rash; ineffective in this case)
+   2. Inhaler (for asthma)
+   3. Patient is prescribed a more potent topical steroid for his dermatitis.

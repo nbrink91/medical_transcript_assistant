@@ -1,0 +1,38 @@
+Patient Info:
+- Name: Henry
+- Age: Not discussed
+- Sex: Male
+- ID: Not discussed
+- DOB: Not discussed
+
+Appointment Reason:
+- Rash on right arm
+
+Allergies:
+- Not discussed
+
+History of Present Illness (HPI):
+- Rash started 2 days ago on the right arm as a small red spot, now spread, itchy, and stinging.
+- Patient went hiking last weekend and came into contact with brush.
+- Tried cortisone cream with minimal relief.
+- Increased inhaler use since hiking, with no current wheezing.
+
+Review of Systems (ROS):
+- Not discussed
+
+Physical Exam:
+- Contact dermatitis on medial aspect of right forearm
+- Size: approximately 8x6 cm
+- Characteristics: erythematous, warm to touch, no drainage or vesicles, with excoriations
+
+Assessment and Plan:
+1. Diagnosis:
+   - Contact dermatitis on right forearm likely due to exposure to irritants during hiking.
+2. Treatment:
+   - Prescribe a stronger topical steroid for the rash.
+   - Advise to avoid irritants.
+   - Follow-up in a week. If no improvement or worsening, return for reassessment.
+   - Monitor inhaler use and ensure an adequate supply at home.
+
+Medications:
+- Not discussed

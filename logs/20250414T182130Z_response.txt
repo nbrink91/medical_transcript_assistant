@@ -1,0 +1,71 @@
+=========================
+Model: gpt-4
+Timestamp: 20250414T182130Z
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Doctor: Hi Henry, what brings you in today?
+Patient: Hey Doc. I've got this rash that showed up on my arm.
+Doctor: How long have you had it?
+Patient: Started like two days ago, just a little red spot at first, but now it's spread and it's really itchy. Sometimes it kind of stings.
+Doctor: Any new soaps, detergents, or lotions you've been using?
+Patient: Nope, nothing new. But I did go hiking last weekend and got into some brush and stuff.
+Doctor: Got it. Did you try anything to treat it?
+Patient: Yeah, I had some cortisone cream, but it didn't help much.
+Doctor: Have you noticed any breathing issues since you mentioned hiking?
+Patient: Actually yeah. I've been using my inhaler more than usual since then, but I'm okay now. No wheezing right now.
+Doctor: Alright. Let's take a look at the rash. [pause] Looks like contact dermatitis on medial aspect of right forearm, approx. 8x6 cm, no drainage or vesicles, with excoriations; erythematous and warm to touch.
+Patient: Is it serious?
+Doctor: It doesn't look infected, so that's good. I'll prescribe a stronger topical steroid and have you avoid irritants. If it doesn't get better in a week or gets worse, come back.
+Patient: Sounds good.
+Doctor: And keep using your inhaler as needed. Make sure you've got enough at home.
+Patient: Will do. Thanks.
+
+=========================
+Response
+=========================
+- Patient Info 
+    - Name: Henry
+    - Age: Not mentioned
+    - Sex: Male
+    - ID: Not mentioned
+    - DOB: Not mentioned
+
+- Appointment Reason: Rash on arm
+
+- Allergies: Not discussed
+
+- History of Present Illness (HPI): Patient started experiencing a rash on his arm two days ago. It initially appeared as a small red spot and then spread, becoming itchy and causing occasional stinging.
+
+- Review of Systems (ROS): Patient has a history of respiratory issues, as evidenced by use of an inhaler. He reported increased usage post hiking.
+
+- Physical Exam: Examination of right forearm reveals contact dermatitis with an erythematous rash approx. 8x6 cm. No drainage or vesicles, but with excoriations and warm to touch. 
+
+- Assessment and Plan: 
+  1. Contact Dermatitis: The area of skin that came into contact with an irritant or allergen has become inflamed. Patient will be prescribed a more potent topical steroid to manage the inflammation and advised to avoid irritants. Follow-up is recommended in one week or sooner if the condition worsens.
+  2. Asthma: Keep using inhaler as needed.
+
+- Medications: 
+   - Current: Inhaler for respiratory issues.
+   - New: Topical Steroid for contact dermatitis.
+
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.

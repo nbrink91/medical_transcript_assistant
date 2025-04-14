@@ -1,0 +1,60 @@
+Response from gpt-35-turbo at 20250414T175958Z:
+Prompt: Doctor: Hi Henry, what brings you in today?
+Patient: Hey Doc. I’ve got this rash that showed up on my arm.
+Doctor: How long have you had it?
+Patient: Started like two days ago, just a little red spot at first, but now it’s spread and it's really itchy. Sometimes it kind of stings.
+Doctor: Any new soaps, detergents, or lotions you’ve been using?
+Patient: Nope, nothing new. But I did go hiking last weekend and got into some brush and stuff.
+Doctor: Got it. Did you try anything to treat it?
+Patient: Yeah, I had some cortisone cream, but it didn’t help much.
+Doctor: Have you noticed any breathing issues since you mentioned hiking?
+Patient: Actually yeah. I’ve been using my inhaler more than usual since then, but I’m okay now. No wheezing right now.
+Doctor: Alright. Let’s take a look at the rash. [pause] Looks like contact dermatitis on medial aspect of right forearm, approx. 8x6 cm, no drainage or vesicles, with excoriations; erythematous and warm to touch.
+Patient: Is it serious?
+Doctor: It doesn’t look infected, so that’s good. I’ll prescribe a stronger topical steroid and have you avoid irritants. If it doesn’t get better in a week or gets worse, come back.
+Patient: Sounds good.
+Doctor: And keep using your inhaler as needed. Make sure you’ve got enough at home.
+Patient: Will do. Thanks.
+
+Response: Patient Info:
+- Name: Henry
+- Age: Not discussed
+- Sex: Not discussed
+- ID: Not discussed
+- DOB: Not discussed
+
+Appointment Reason:
+- Rash on right arm
+
+Allergies:
+- Not discussed
+
+History of Present Illness (HPI):
+- Rash started 2 days ago as a small red spot, now spreading and itchy with occasional stinging
+- No new exposures to soaps, detergents, or lotions
+- Recent hiking activity, came into contact with brush
+- Tried cortisone cream with minimal relief
+- Increased inhaler use with no current wheezing
+
+Review of Systems (ROS):
+- Not discussed
+
+Physical Exam:
+- Contact dermatitis on medial aspect of the right forearm
+- Approx. 8x6 cm in size
+- No drainage or vesicles, with excoriations
+- Rash is erythematous and warm to touch
+
+Assessment and Plan:
+1. Diagnosis: Contact dermatitis on right forearm
+   - Prescribe a stronger topical steroid for the rash
+   - Instruct to avoid irritants that may worsen the rash
+   - Follow-up in a week if no improvement or if the condition worsens
+
+2. Diagnosis: Increased inhaler use post-hiking
+   - Continue using the inhaler as needed
+   - Ensure an adequate supply of inhaler at home
+
+Medications:
+- Stronger topical steroid for the rash
+- Inhaler for respiratory symptoms
