@@ -1,0 +1,18 @@
+Provider: Hi Olivia, first off, can I confirm your info is up to date?
+Patient: Yes, it's all current.
+Provider: And no new allergies?
+Patient: I'm allergic to latex just found that out during a dental visit.
+Provider: Good to know. So you mentioned anxiety and sleep problems.
+Patient: Yeah, I can't fall asleep, and I'm constantly on edge.
+Provider: Any chest pain, palpitations, or GI issues?
+Patient: Sometimes my heart races, but no stomach issues.
+Provider: Appetite okay?
+Patient: I've been skipping meals sometimes.
+Provider: Let me do a quick check. everything sounds normal. Blood pressure looks good.
+Patient: I just feel exhausted from always thinking. I can't sleep, and I'm always worrying
+Provider: I'm sorry to hear that. Any panic attacks or thoughts of hurting yourself?
+Patient: No, nothing like that. Just can't shut my brain off.
+Provider: Have you tried anything to manage it? Breathing, therapy, medications?
+Patient: I've tried some apps, but not much else.
+Provider: We can start with counseling and consider a low-dose prescription for an SSRI medication to help stabilize your mood and sleep. Many people find that helpful, especially when sleep is affected. Let's check in again in 4 weeks.
+Patient: That would be great. I just want to feel normal again.

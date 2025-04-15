@@ -1,0 +1,72 @@
+=========================
+Model: gpt-4
+Timestamp: 20250415T175553Z
+Appointment Reason: Type 2 Diabetes Management
+ICD-10 Code: E11.9
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Good morning, Maria. How have you been managing your blood sugars lately?
+Patient: Morning, Doc. They're still a little high in the mornings. I'm trying to stick to the plan, but it's hard with work.
+Provider: Are you still taking the metformin twice a day?
+Patient: I am, but I missed a few doses last week.
+Provider: Understood. Any new symptoms like numbness, vision changes, unusual thirst?
+Patient: No new symptoms. I've been feeling tired, though.
+Provider: Let's do a quick check on your A1C today, and I'll also review your medication routine. We may want to adjust your diet or consider a second medication if needed.
+Patient: Okay, I'm open to that.
+
+=========================
+Response
+=========================
+- Patient Info
+  - Name: Maria
+  - Age: Not discussed
+  - Sex: Female
+  - ID: Not discussed
+  - DOB: Not discussed
+
+- Appointment Reason
+  - Regular review of diabetes management and high morning blood sugars.
+
+- Allergies
+  - Not discussed
+
+- History of Present Illness (HPI)
+  - Maria reports her morning blood sugars are still high despite adherence to management plan. However, she missed few doses of metformin last week.
+
+- Review of Systems (ROS)
+  - Denies new symptoms of numbness, vision changes, and unusual thirst.
+  - Reports intermittent fatigue.
+
+- Physical Exam
+  - Not discussed
+
+- Assessment and Plan
+  1. Poorly controlled diabetes mellitus: Maria is still reporting high fasting blood sugars. We will check her glycosylated hemoglobin (A1C) to get a better view of her overall glucose control.
+  2. Fatigue: This is often a symptom of high blood sugars. After evaluating her blood glucose control, further investigation may be needed if symptom persists.
+  3. Non-adherence to medication regimen: Maria missed few doses of her metformin last week. Reinforce the importance of medication adherence and discuss potential modifications of medication regimen to improve control, including the possible addition of a second medication if required.
+  4. Lifestyle & diet modification: Re-evaluation and potential modification of her diet could help improve her blood glucose control.
+
+- Medications
+  - Metformin: Used for managing blood glucose levels in diabetes.
+
+Note: All information not provided in the transcript is marked as "Not discussed".

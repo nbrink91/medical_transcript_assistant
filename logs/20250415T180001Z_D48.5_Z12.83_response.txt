@@ -1,0 +1,66 @@
+=========================
+Model: gpt-4
+Timestamp: 20250415T180001Z
+Appointment Reason: Skin Cancer Screening – Suspicious Mole
+ICD-10 Code: D48.5_Z12.83
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hey John, I see you've got a spot you're worried about.
+Patient: Yeah, I've had this mole on my shoulder for a while, but it's been changing color and shape.
+Provider: Let me take a look... Hmm. It's asymmetric, has some irregular borders, and the color is uneven.
+Patient: That's not good, right?
+Provider: It's suspicious enough that I'd like to do a biopsy to rule out melanoma. We'll send it to pathology.
+Patient: Okay, let's do it.
+Provider: I'll numb the area and take a small sample. Results usually come back in a few days.
+Patient: Thanks for catching this early.
+
+=========================
+Response
+=========================
+- Patient Info
+  - Name: John
+  - Age: Not discussed
+  - Sex: Not discussed
+  - ID: Not discussed
+  - DOB: Not discussed
+
+- Appointment Reason
+  - Concern about a mole on shoulder changing color and shape
+
+- Allergies
+  - Not discussed
+
+- History of Present Illness (HPI)
+  - John reported noticing a mole on his shoulder that has been changing in color and shape.
+
+- Review of Systems (ROS)
+  - Not discussed
+
+- Physical Exam
+  - Noted a mole on John's shoulder that is asymmetric, with irregular borders, and uneven color.
+
+- Assessment and Plan
+  1. Suggested melanoma: The mole presented by the patient is suspicious due to irregular appearance. The doctor has decided to perform a biopsy to confirm or rule out melanoma. The sample will be sent to pathology for analysis.
+
+- Medications
+  - Not discussed

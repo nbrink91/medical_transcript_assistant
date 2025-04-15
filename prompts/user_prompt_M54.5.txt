@@ -1,0 +1,23 @@
+
+
+
+Provider: Travis, let me quickly confirm any changes in your contact info or pharmacy?
+Patient: Nope, all the same.
+Provider: Okay, and any allergies?
+Patient: I get a rash from sulfa drugs.
+Provider: Thanks. so what happened to your back?
+Patient: I lifted a box helping my neighbor move. Felt a pop, and now it's sore and stiff.
+Provider: Any numbness or tingling down your legs?
+Patient: Nope, just pain in my lower back. Hurts when I bend.
+Provider: Any bowel or bladder issues?
+Patient: Nope.
+Provider: Let's go through your systems. Headaches? Vision issues?
+Patient: No.
+Provider: Sleep okay? Appetite normal?
+Patient: Both good.
+Provider: Let me have you bend forward... any pain there?
+Patient: Yeah, a little tight.
+Provider: Tenderness on palpation... okay, I don't see signs of a herniated disc. Sounds musculoskeletal. Let's check your range of motion and see if we need imaging.
+Patient: I'd rather not do an MRI unless it's serious.
+Provider: Totally reasonable. I'll recommend NSAIDs, heat, rest, and anti-inflammatories. If it doesn't improve in 7-10 days, we'll reassess.
+Patient: Got it, thanks.

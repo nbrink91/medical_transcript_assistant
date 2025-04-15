@@ -1,0 +1,18 @@
+Provider: Hi John. I see you're here for a mole you're concerned about. First, can I verify your contact info and pharmacy?
+Patient: Yes, nothing's changed.
+Provider: Any allergies?
+Patient: None that I know of.
+Provider: Any recent weight loss, fevers, or fatigue?
+Patient: No, I feel fine.
+Provider: Good. Any history of skin cancer in the family?
+Patient: My dad had melanoma.
+Provider: That's helpful. Let's take a look at the mole.
+Patient: Yeah, I've had this mole on my shoulder for a while, but it's been changing color and shape.
+Provider: Let me take a look... Hmm. It's asymmetric, has some irregular borders, and the color is uneven, about 7mm on the left shoulder near the top of the shoulder blade.
+Patient: That's not good, right?
+Provider: It's suspicious enough that I'd like to do a biopsy to rule out melanoma. We'll send it to pathology.
+Patient: Okay, let's do it.
+Provider: Let me check your lymph nodes. no swelling. Skin elsewhere looks clear.
+Patient: Thanks for being thorough.
+Provider: Of course. We'll numb the area and get the results back in a few days.
+Patient: Thanks for catching this early.

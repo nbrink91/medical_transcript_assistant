@@ -17,7 +17,7 @@ Popular Tasks
 * Text to Speech
 * Translation
 * Text translation
-* Qustion Answering
+* Question Answering
 * Text classification
 * Fill mask
 * Token classification

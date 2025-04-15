@@ -1,0 +1,44 @@
+[project]
+name        = "medical transcript assistant"
+version     = "2025.1"
+license     = {text = "MIT"}
+description = "Example project to assist in medical transcripts"
+readme      = "README.md"
+authors     = [
+    {name = "Lamoreaux Lab", email = "info@golamoreaux.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.12.0"
+dependencies    = []
+
+[tool.codespell]
+skip = './.*,*.csv,*.json,*.pyc,./docs/_build/*,./htmlcov/*,*.workbook,*.egg-info'
+quiet-level = 2
+ignore-words-list = "EHR,stings"
+
+[tool.ruff]
+exclude = [
+    ".git",
+    ".venv",
+]
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"

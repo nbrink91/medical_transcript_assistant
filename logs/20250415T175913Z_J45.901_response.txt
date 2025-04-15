@@ -1,0 +1,73 @@
+=========================
+Model: gpt-4
+Timestamp: 20250415T175913Z
+Appointment Reason: Asthma Flare-Up After Dust Storm
+ICD-10 Code: J45.901
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hi Jamal, I see you came in after last week's dust storm. What's going on?
+Patient: Yeah, my chest got really tight. I had to use my rescue inhaler like four times in one day.
+Provider: Did you have any wheezing or trouble catching your breath?
+Patient: Both. It calmed down after a few hours, but it scared me.
+Provider: Any ER visits or hospital stays?
+Patient: No, I just waited it out.
+Provider: You did the right thing using the inhaler, but we need to talk about adding a controller medication, especially during monsoon season.
+Patient: That makes sense. I hate feeling like that.
+
+=========================
+Response
+=========================
+- Patient Info
+  - Name: Jamal
+  - Age: Not discussed
+  - Sex: Not discussed
+  - ID: Not discussed
+  - DOB: Not discussed
+
+- Appointment Reason
+  - The patient experienced chest tightness and difficulty in breathing after last week's dust storm
+
+- Allergies
+  - Not discussed
+
+- History of Present Illness (HPI)
+  - The patient experienced chest tightness, wheezing and difficulty in breathing post dust storm
+  - He used rescue inhaler about four times in a single day
+  - The symptoms subsided after a few hours without necessitating an ER visit or hospital admission
+
+- Review of Systems (ROS)
+  - Not discussed
+
+- Physical Exam
+  - Not discussed
+
+- Assessment and Plan
+  - Diagnosis:
+    1. Potential Asthma exacerbated by dust exposure or allergic bronchitis: The patient's symptoms point towards asthma or an allergy-related bronchitis, particularly exacerbated with dust exposure.
+  - Plan: The provider suggested introducing a controller medication to manage the patient's symptoms, particularly during monsoon season when such triggers are likely to be present. A follow-up appointment and further diagnostic tests may be necessary.
+
+- Medications
+  - Current: Rescue inhaler (for immediate relief during asthma attacks)
+  - Proposed: Controller medication (for long-term asthma control)
+
+Note: Patient's age, sex, ID, DOB, allergies, ROS and physical exam results were not discussed in this session. The accurate diagnoses can only be confirmed with further testing.

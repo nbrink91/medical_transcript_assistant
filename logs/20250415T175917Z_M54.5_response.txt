@@ -1,0 +1,55 @@
+=========================
+Model: gpt-4
+Timestamp: 20250415T175917Z
+Appointment Reason: Low Back Pain After Lifting
+ICD-10 Code: M54.5
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hey Travis, what happened to your back?
+Patient: I lifted a box helping my neighbor move. Felt a pop, and now it's sore and stiff.
+Provider: Any numbness or tingling down your legs?
+Patient: Nope, just pain in my lower back. Hurts when I bend.
+Provider: Sounds musculoskeletal. Let's check your range of motion and see if we need imaging.
+Patient: I'd rather not do an MRI unless it's serious.
+Provider: Totally reasonable. I'll recommend heat, rest, and anti-inflammatories. If it doesn't improve in 7-10 days, we'll reassess.
+Patient: Got it, thanks.
+
+=========================
+Response
+=========================
+- Patient Info
+    - Name: Travis
+    - Age: Not discussed
+    - Sex: Not discussed
+    - ID: Not discussed
+    - DOB: Not discussed
+- Appointment Reason: Back pain after lifting a heavy box
+- Allergies: Not discussed
+- History of Present Illness (HPI): The patient reports experiencing a pop and subsequent pain in the lower back after lifting a box. Pain intensifies when bending. No instances of numbness or tingling down the legs.
+- Review of Systems (ROS): Not discussed
+- Physical Exam: Provider noted possible musculoskeletal issue; recommended assessment of range of motion.
+- Assessment and Plan:
+    - 1. Suspected musculoskeletal back strain; Further assess range of motion.
+    - 2. The patient will apply heat, rest, and take anti-inflammatories.
+    - 3. Re-evaluate after 7-10 days if no improvement to consider imaging.
+- Medications: Anti-inflammatories (for back pain)

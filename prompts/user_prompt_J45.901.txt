@@ -1,0 +1,21 @@
+Provider: Hi Jamal, I see you came in after last week's dust storm. What's going on?
+Patient: Yeah, my chest got really tight. I had to use my rescue inhaler like four times in one day.
+Provider: Did you have any wheezing or trouble catching your breath?
+Patient: Both. It calmed down after a few hours, but it scared me.
+Provider: Any ER visits or hospital stays?
+Patient: No, I just waited it out.
+Provider: You did the right thing using the inhaler."
+Provider: Jamal, before we talk about your asthma flare-up, let's verify your info. Still working at the warehouse?
+Patient: Yeah, same job.
+Provider: Okay. Any new allergies or changes in your health history?
+Patient: No new allergies. Still allergic to cats and dust mites.
+Provider: Do you have any symptoms right now? Any fever, cough, chest pain?
+Patient: No fever, just tightness in my chest.
+Provider: GI or urinary issues?
+Patient: Nope.
+Provider: Mood okay? Any anxiety or sleep issues?
+Patient: I've been more tired, but I think it's just the asthma.
+Provider: Let's take a listen. you've got mild wheezing in the upper lobes. Oxygen saturation is 97%. No signs of distress now.
+Patient: I had to use my inhaler a lot last week.
+Provider: We'll do a peak flow test, then talk about adding a controller medication, especially during monsoon season. And stay indoors when the dust kicks up.
+Patient: That makes sense. I hate feeling like that.

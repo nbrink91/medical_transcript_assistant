@@ -54,17 +54,17 @@ Response
 
 - Allergies: Not discussed
 
-- History of Present Illness (HPI): Patient reports a rash that started as a small, red area two days ago (medically termed "macule"), which has since spread, increased in redness and itchiness, and occasionally produces a stinging sensation. The rash did not respond to over-the-counter cortisone cream. Patient admits to have gone hiking and exposure to vegetation a few days prior to the symptoms. The patient also noted an increase in the use of his inhaler, suggesting a probable increase in asthma incidents after hiking. 
+- History of Present Illness (HPI): Patient reports a rash that started as a small, red area two days ago (medically termed "macule"), which has since spread, increased in redness and itchiness, and occasionally produces a stinging sensation. The rash did not respond to over-the-counter cortisone cream. Patient admits to have gone hiking and exposure to vegetation a few days prior to the symptoms. The patient also noted an increase in the use of his inhaler, suggesting a probable increase in asthma incidents after hiking.
 
 - Review of Systems (ROS): Patient reported no new exposure to soaps, detergents, or lotions. Had recent outdoor activities specifically hiking. The patient also reported an increased use of his inhaler.
 
-- Physical Exam: Examination revealed a dermatitis on the medial aspect of the patient's right forearm, approximately 8x6 cm. The area exhibits excoriations, is erythematous and warm to touch, yet shows no signs of infection (no drainage or vesicles present). 
+- Physical Exam: Examination revealed a dermatitis on the medial aspect of the patient's right forearm, approximately 8x6 cm. The area exhibits excoriations, is erythematous and warm to touch, yet shows no signs of infection (no drainage or vesicles present).
 
-- Assessment and Plan: 
+- Assessment and Plan:
 1. Diagnosed with Contact Dermatitis: Contact with a likely outdoor irritant such as vegetation during his recent hiking trip might have instigated the condition. He will be prescribed a stronger topical steroid. He is advised to avoid irritants and to return if the condition worsens or doesn't improve in a week.
 2. Asthma Incident: The patient reported an increase in the need for an inhaler since hiking, indicating a potential asthma incident. The patient is encouraged to continue using the inhaler as needed and to ensure its availability at home.
 
-- Medications 
+- Medications
    1. Cortisone cream (used for rash; ineffective in this case)
    2. Inhaler (for asthma)
    3. Patient is prescribed a more potent topical steroid for his dermatitis.

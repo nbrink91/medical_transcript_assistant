@@ -1,0 +1,16 @@
+Provider: Good morning, Maria. How have you been managing your blood sugars lately?
+Patient: Morning, Doc. They're still a little high in the mornings. I'm trying to stick to the plan, but it's hard with work.
+Provider: Are you still taking the metformin twice a day?
+Patient: I am, but I’ve missed a few doses. My sugars are still high some mornings.
+Provider: Understood. Any new symptoms like numbness, vision changes, unusual thirst?
+Patient: No new symptoms. I've been feeling tired, though.
+Provider: Well, before we dive in, let me confirm a few things. You're still at the same address and phone number?
+Patient: Yep, nothing’s changed.
+Provider: Got it. Any allergies to medications, foods, or anything else?
+Patient: Just penicillin. I get hives.
+Provider: Thanks. Let me go through a quick review. Any chest pain, shortness of breath, dizziness?
+Patient: Nope.
+Provider: GI issues? Nausea, constipation, or diarrhea?
+Patient: Some mild constipation lately.
+Provider: Okay. Let me take a quick listen. heart rate is regular, breath sounds clear. Let’s check your feet. no ulcers, good pulses. Let's do a quick check on your A1C today, and I'll also review your medication routine. We may want to adjust your diet or consider a second medication if needed.  Also make sure you’re getting fiber and staying hydrated.
+Patient: Okay, I'm open to that.

@@ -1,0 +1,7 @@
+[
+    {"appointmentReason": "Type 2 Diabetes Management", "icd10code": "E11.9", "icd10codeDesc":"Type 2 Diabetes Mellitus Without Complications", "path": "user_prompt_E11.9.txt"},
+    {"appointmentReason": "Asthma Flare-Up After Dust Storm", "icd10code": "J45.901", "icd10codeDesc": "Asthma Flare-Up After Dust Storm", "path": "user_prompt_J45.901.txt"},
+    {"appointmentReason": "Low Back Pain After Lifting", "icd10code": "M54.5", "icd10codeDesc": "Low Back Pain", "path": "user_prompt_M54.5.txt" },
+    {"appointmentReason": "Anxiety and Sleep Issues", "icd10code": "F41.1", "icd10codeDesc": "Generalized Anxiety Disorder", "path": "user_prompt_F41.1.txt"},
+    {"appointmentReason": "Skin Cancer Screening – Suspicious Mole", "icd10code": "D48.5_Z12.83", "icd10codeDesc": "Neoplasm of Uncertain Behavior of Skin / Encounter for Screening for Malignant Neoplasm of Skin", "path": "user_prompt_D48.5_Z12.83.txt"}
+]

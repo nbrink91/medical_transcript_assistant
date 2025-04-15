@@ -1,0 +1,64 @@
+=========================
+Model: gpt-4
+Timestamp: 20250415T175646Z
+Appointment Reason: Low Back Pain After Lifting
+ICD-10 Code: M54.5
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hey Travis, what happened to your back?
+Patient: I lifted a box helping my neighbor move. Felt a pop, and now it's sore and stiff.
+Provider: Any numbness or tingling down your legs?
+Patient: Nope, just pain in my lower back. Hurts when I bend.
+Provider: Sounds musculoskeletal. Let's check your range of motion and see if we need imaging.
+Patient: I'd rather not do an MRI unless it's serious.
+Provider: Totally reasonable. I'll recommend heat, rest, and anti-inflammatories. If it doesn't improve in 7-10 days, we'll reassess.
+Patient: Got it, thanks.
+
+=========================
+Response
+=========================
+- Patient Info
+   - Name: Travis
+   - Age: Not discussed
+   - Sex: Not discussed
+   - ID: Not discussed
+   - DOB: Not discussed
+
+- Appointment Reason:
+   - Patient felt a "pop" in his lower back while lifting a box during a move and is now experiencing pain and stiffness.
+
+- Allergies: Not discussed
+
+- History of Present Illness (HPI):
+   - Travis reports lower back pain following lifting a box. No tingling or numbness down the legs reported.
+
+- Review of Systems (ROS): Not discussed
+
+- Physical Exam:
+   - Provider suggested a check for range of motion. Results were not reported.
+
+- Assessment and Plan:
+   1. Diagnosis: Likely musculoskeletal back injury based on history and symptoms.
+   2. Plan: Recommend heat application, rest, and anti-inflammatories. Reassess in 7-10 days if symptoms do not improve.
+
+- Medications: Not discussed

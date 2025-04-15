@@ -1,0 +1,72 @@
+=========================
+Model: gpt-4
+Timestamp: 20250415T175653Z
+Appointment Reason: Anxiety and Sleep Issues
+ICD-10 Code: F41.1
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hi Olivia, thanks for coming in. I saw on your intake you've been having anxiety.
+Patient: Yeah, it's been getting worse the last couple of months. I can't sleep, and I'm always worrying.
+Provider: I'm sorry to hear that. Any panic attacks or thoughts of hurting yourself?
+Patient: No, nothing like that. Just can't shut my brain off.
+Provider: Have you tried anything to manage it? Breathing, therapy, medications?
+Patient: I've tried some apps, but not much else.
+Provider: We can start with counseling and consider a low-dose medication. Many people find that helpful, especially when sleep is affected.
+Patient: That would be great. I just want to feel normal again.
+
+=========================
+Response
+=========================
+- Patient Info
+  - Name: Olivia
+  - Age: Not discussed
+  - Sex: Female
+  - ID: Not discussed
+  - DOB: Not discussed
+
+- Appointment Reason
+  - Increasing anxiety over the last couple of months
+
+- Allergies
+  - Not discussed
+
+- History of Present Illness (HPI)
+  - Patient reports worsening anxiety over the past few months, characterized by worries and sleep disturbances. No reported panic attacks or suicidal ideation.
+
+- Review of Systems (ROS)
+  - Not discussed
+
+- Physical Exam
+  - Not discussed
+
+- Assessment and Plan
+  - Diagnosis:
+    1. Generalized Anxiety Disorder: Patient presents with increasing levels of anxiety that have been affecting her sleep. The absence of panic attacks or suicidal ideation excludes further complications.
+  - Plan:
+    1. Initiate counseling to help manage anxiety.
+    2. Consider the prescription of a low-dose medication to help with the disturbances in sleep.
+
+- Medications
+  - None currently. Plan to consider low-dose anxiety medication.
+
+Note: Detailed age, ID, DOB, allergies, ROS, and physical exam discussions are missing from the provided transcript. Further communication with the provider and patient may be necessary to obtain this information.

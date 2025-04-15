@@ -1,0 +1,69 @@
+=========================
+Model: gpt-4
+Timestamp: 20250415T175636Z
+Appointment Reason: Asthma Flare-Up After Dust Storm
+ICD-10 Code: J45.901
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hi Jamal, I see you came in after last week's dust storm. What's going on?
+Patient: Yeah, my chest got really tight. I had to use my rescue inhaler like four times in one day.
+Provider: Did you have any wheezing or trouble catching your breath?
+Patient: Both. It calmed down after a few hours, but it scared me.
+Provider: Any ER visits or hospital stays?
+Patient: No, I just waited it out.
+Provider: You did the right thing using the inhaler, but we need to talk about adding a controller medication, especially during monsoon season.
+Patient: That makes sense. I hate feeling like that.
+
+=========================
+Response
+=========================
+- Patient Info
+  - Name: Jamal
+  - Age: Not discussed
+  - Sex: Not discussed
+  - ID: Not discussed
+  - DOB: Not discussed
+
+- Appointment Reason
+  - Patient experienced chest tightness following a dust storm which required multiple uses of his rescue inhaler.
+
+- Allergies
+  - Not discussed
+
+- History of Present Illness (HPI)
+  - Jamal describes an exacerbation of respiratory symptoms, including chest tightness, wheezing, and breathlessness, which occurred in the context of exposure to a recent dust storm. He reported using his rescue inhaler multiple times during this event.
+
+- Review of Systems (ROS)
+  - Not discussed
+
+- Physical Exam
+  - Not discussed
+
+- Assessment and Plan
+  1. Exacerbation of Asthma: The patient's report of an increase in asthma symptoms during exposure to a dust storm is concerning. Managed the acute episode with a rescue inhaler. Proposed next step is to add a controller medication to help prevent such episodes, especially during times of increased environmental triggers such as the monsoon season.
+
+- Medications
+  - Rescue inhaler (used for acute asthma exacerbations)
+  - Proposed: controller medication for asthma (Prevents asthma exacerbations)
+
+- Note: The provider should update the patient's information and address unasked questions including allergies, review of systems, and a physical exam during their next appointment. This information is critical for making a complete assessment of the patient's health condition.

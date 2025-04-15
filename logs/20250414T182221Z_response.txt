@@ -54,14 +54,14 @@ Response
 
 - Allergies: Not discussed
 
-- History of Present Illness (HPI): The patient reports a rash on his arm that started two days ago initially as a red spot, then spread and became itchy and slightly painful. No change in soap, detergent, or lotion use, but mentioned exposure to brush during a recent hiking trip. Attempted self-treatment with cortisone cream without relief. Reports increased use of pre-existing inhaler since hike, implying possible respiratory allergies or asthma, but no current breathing difficulties.  
+- History of Present Illness (HPI): The patient reports a rash on his arm that started two days ago initially as a red spot, then spread and became itchy and slightly painful. No change in soap, detergent, or lotion use, but mentioned exposure to brush during a recent hiking trip. Attempted self-treatment with cortisone cream without relief. Reports increased use of pre-existing inhaler since hike, implying possible respiratory allergies or asthma, but no current breathing difficulties.
 
 - Review of Systems (ROS): Skin - positive for rash and itchiness. Respiratory - shortness of breath, managed with inhaler.
 
 - Physical Exam: Rash (contact dermatitis) identified on medial aspect of right forearm. Approximately 8x6cm with excoriations. No drainage or vesicles present. Erythema and warmth noted.
 
-- Assessment and Plan: 
-    1. Contact Dermatitis: Advised patient to continue avoiding irritants. Prescribed a stronger topical steroid for the rash. Instructed patient to return if condition worsens or doesn't improve after one week. 
+- Assessment and Plan:
+    1. Contact Dermatitis: Advised patient to continue avoiding irritants. Prescribed a stronger topical steroid for the rash. Instructed patient to return if condition worsens or doesn't improve after one week.
     2. Potential Environmental-triggered breathing issue: Advised patient to continue using his inhaler as needed.
 
 - Medications: Cortisone cream (for rash), Inhaler (presumably for breathing issues), New prescription for stronger topical steroid (for rash)

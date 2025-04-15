@@ -36,32 +36,32 @@ Doctor: And keep using your inhaler as needed. Make sure you've got enough at ho
 Patient: Will do. Thanks.
 =========================
 Response=========================
-**Patient Info**  
-- Name: Henry  
-- Age: Not discussed  
-- Sex: Male  
-- ID: Not discussed  
-- DOB: Not discussed  
+**Patient Info**
+- Name: Henry
+- Age: Not discussed
+- Sex: Male
+- ID: Not discussed
+- DOB: Not discussed
 
-**Appointment Reason**  
-- Rash on right arm  
+**Appointment Reason**
+- Rash on right arm
 
-**Allergies**  
-- Not discussed  
+**Allergies**
+- Not discussed
 
-**History of Present Illness (HPI)**  
-- Rash started on right arm two days ago as a small red spot, now spread and itchy with occasional stinging  
-- History of hiking with exposure to brush last weekend  
+**History of Present Illness (HPI)**
+- Rash started on right arm two days ago as a small red spot, now spread and itchy with occasional stinging
+- History of hiking with exposure to brush last weekend
 
-**Review of Systems (ROS)**  
-- Not discussed  
+**Review of Systems (ROS)**
+- Not discussed
 
-**Physical Exam**  
-- Contact dermatitis on medial aspect of right forearm, approximately 8x6 cm  
-- No drainage or vesicles, with excoriations  
-- Erythematous and warm to touch  
+**Physical Exam**
+- Contact dermatitis on medial aspect of right forearm, approximately 8x6 cm
+- No drainage or vesicles, with excoriations
+- Erythematous and warm to touch
 
-**Assessment and Plan**  
+**Assessment and Plan**
 1. **Diagnosis:**
    - Contact dermatitis on right forearm
 2. **Plan:**
@@ -69,9 +69,9 @@ Response=========================
    - Advise to avoid irritants
    - Follow up in a week if no improvement or worsening of rash
    - Monitor for signs of infection
-   - Instruct to continue using inhaler as needed  
+   - Instruct to continue using inhaler as needed
 
-**Medications**  
-- Topical steroid for rash  
+**Medications**
+- Topical steroid for rash
 
 (Note: Information such as age, allergies, review of systems, and date of birth was not discussed during the conversation.)

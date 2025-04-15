@@ -43,7 +43,7 @@ Patient: Will do. Thanks.
 =========================
 Response
 =========================
-- Patient Info 
+- Patient Info
     - Name: Henry
     - Age: Not mentioned
     - Sex: Male
@@ -58,13 +58,13 @@ Response
 
 - Review of Systems (ROS): Patient has a history of respiratory issues, as evidenced by use of an inhaler. He reported increased usage post hiking.
 
-- Physical Exam: Examination of right forearm reveals contact dermatitis with an erythematous rash approx. 8x6 cm. No drainage or vesicles, but with excoriations and warm to touch. 
+- Physical Exam: Examination of right forearm reveals contact dermatitis with an erythematous rash approx. 8x6 cm. No drainage or vesicles, but with excoriations and warm to touch.
 
-- Assessment and Plan: 
+- Assessment and Plan:
   1. Contact Dermatitis: The area of skin that came into contact with an irritant or allergen has become inflamed. Patient will be prescribed a more potent topical steroid to manage the inflammation and advised to avoid irritants. Follow-up is recommended in one week or sooner if the condition worsens.
   2. Asthma: Keep using inhaler as needed.
 
-- Medications: 
+- Medications:
    - Current: Inhaler for respiratory issues.
    - New: Topical Steroid for contact dermatitis.
 

@@ -14,5 +14,21 @@ python3 -m venv .venv
 source .venv/bin/activate
 # deactivate
 
+# Install dependencies
 pip install -r requirements_dev.txt
+pre-commit install
+
+# Run the tool
+python main.py
+
+
+# Testing
+# Use pre-commit scripts to run all linting
+pre-commit run --all-files
+
+# Run a specific linter via pre-commit
+pre-commit run --all-files codespell
+
+# Run linters outside of pre-commit
+codespell .
 ```
