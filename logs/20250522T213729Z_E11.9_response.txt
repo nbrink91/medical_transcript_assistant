@@ -1,0 +1,85 @@
+=========================
+Model: gpt-4o-mini
+Timestamp: 20250522T213729Z
+Appointment Reason: Type 2 Diabetes Management
+ICD-10 Code: E11.9
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Good morning, Maria. How have you been managing your blood sugars lately?
+Patient: Morning, Doc. They're still a little high in the mornings. I'm trying to stick to the plan, but it's hard with work.
+Provider: Are you still taking the metformin twice a day?
+Patient: I am, but I’ve missed a few doses. My sugars are still high some mornings.
+Provider: Understood. Any new symptoms like numbness, vision changes, unusual thirst?
+Patient: No new symptoms. I've been feeling tired, though.
+Provider: Well, before we dive in, let me confirm a few things. You're still at the same address and phone number?
+Patient: Yep, nothing’s changed.
+Provider: Got it. Any allergies to medications, foods, or anything else?
+Patient: Just penicillin. I get hives.
+Provider: Thanks. Let me go through a quick review. Any chest pain, shortness of breath, dizziness?
+Patient: Nope.
+Provider: GI issues? Nausea, constipation, or diarrhea?
+Patient: Some mild constipation lately.
+Provider: Okay. Let me take a quick listen. heart rate is regular, breath sounds clear. Let’s check your feet. no ulcers, good pulses. Let's do a quick check on your A1C today, and I'll also review your medication routine. We may want to adjust your diet or consider a second medication if needed.  Also make sure you’re getting fiber and staying hydrated.
+Patient: Okay, I'm open to that.
+
+=========================
+Response
+=========================
+**Patient Info:**
+- Name: Maria
+- Age: Not discussed
+- Sex: Not discussed
+- ID: Not discussed
+- DOB: Not discussed
+
+**Appointment Reason:**
+Follow-up on diabetes management and blood sugar levels.
+
+**Allergies:**
+Penicillin (causes hives).
+
+**History of Present Illness (HPI):**
+Patient reports high morning blood sugars, despite adherence to metformin regimen. Has missed a few doses. Reports feeling tired but denies new symptoms including numbness, vision changes, or unusual thirst. 
+
+**Review of Systems (ROS):**
+- Constitutional: Fatigue
+- Cardiovascular: No chest pain or shortness of breath
+- Neurological: No dizziness
+- Gastrointestinal: Mild constipation
+
+**Physical Exam:**
+- Heart rate: Regular
+- Respiratory: Clear breath sounds
+- Feet examination: No ulcers, good pulses
+
+**Assessment and Plan:**
+1. **Uncontrolled Diabetes Mellitus**: 
+   - Explanation: Patient's morning blood sugars are still elevated; non-compliance with medication could be contributing.
+   - Next Steps: Check A1C today, review medication routine, assess dietary needs, and potentially consider a second medication.
+
+2. **Mild Constipation**:
+   - Explanation: Patient reports some mild constipation.
+   - Next Steps: Encourage increased fiber intake and hydration.
+
+**Medications:**
+- Metformin: For management of type 2 diabetes mellitus.

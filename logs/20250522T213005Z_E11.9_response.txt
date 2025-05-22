@@ -1,0 +1,92 @@
+=========================
+Model: gpt-4
+Timestamp: 20250522T213005Z
+Appointment Reason: Type 2 Diabetes Management
+ICD-10 Code: E11.9
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Good morning, Maria. How have you been managing your blood sugars lately?
+Patient: Morning, Doc. They're still a little high in the mornings. I'm trying to stick to the plan, but it's hard with work.
+Provider: Are you still taking the metformin twice a day?
+Patient: I am, but I’ve missed a few doses. My sugars are still high some mornings.
+Provider: Understood. Any new symptoms like numbness, vision changes, unusual thirst?
+Patient: No new symptoms. I've been feeling tired, though.
+Provider: Well, before we dive in, let me confirm a few things. You're still at the same address and phone number?
+Patient: Yep, nothing’s changed.
+Provider: Got it. Any allergies to medications, foods, or anything else?
+Patient: Just penicillin. I get hives.
+Provider: Thanks. Let me go through a quick review. Any chest pain, shortness of breath, dizziness?
+Patient: Nope.
+Provider: GI issues? Nausea, constipation, or diarrhea?
+Patient: Some mild constipation lately.
+Provider: Okay. Let me take a quick listen. heart rate is regular, breath sounds clear. Let’s check your feet. no ulcers, good pulses. Let's do a quick check on your A1C today, and I'll also review your medication routine. We may want to adjust your diet or consider a second medication if needed.  Also make sure you’re getting fiber and staying hydrated.
+Patient: Okay, I'm open to that.
+
+=========================
+Response
+=========================
+### Patient Info
+- **Name:** Maria
+- **Age:** Not discussed
+- **Sex:** Female
+- **ID:** Not discussed
+- **DOB:** Not discussed
+
+### Appointment Reason
+- Concern about high morning blood sugar levels.
+
+### Allergies
+- Penicillin (results in hives)
+
+### History of Present Illness (HPI)
+- Maria reports high blood sugar levels in the morning, despite being prescribed and mostly adhering to metformin. She has missed a few doses. No new symptoms like numbness or vision changes, but reports feeling unusually tired.
+
+### Review of Systems (ROS)
+- **Neurological:** No numbness or vision changes reported.
+- **Cardiovascular:** No chest pain, shortness of breath, or dizziness.
+- **Respiratory:** Breath sounds are clear.
+- **Gastrointestinal:** Reports mild constipation.
+- **Endocrine:** Main issue involves management of diabetes with fluctuating morning blood sugar levels.
+
+### Physical Exam
+- **Heart Rate:** Regular.
+- **Respiratory Exam:** Clear breath sounds.
+- **Feet:** No ulcers observed, good pulses.
+
+### Assessment and Plan
+1. **Type 2 Diabetes Mellitus**
+   - **Explanation:** Maria's morning hyperglycemia suggests suboptimal glycemic control.
+   - **Next Steps:**
+     a. Check A1C today to assess overall glucose control.
+     b. Reinforce adherence to medication (Metformin).
+     c. Consider adjustment in diet focusing on increased fiber intake.
+     d. Possible introduction of a second antidiabetic medication depending on today's findings.
+     e. Encourage regular monitoring and logging of blood sugar levels.
+     f. Schedule follow-up appointment to review changes and A1C results.
+     g. Suggest adjustment of meal planning and increasing physical activities.
+
+### Medications
+- **Metformin:** Used for managing blood sugar levels in Type 2 Diabetes.
+- **Note:** Importance of adherence to dosing schedule to be emphasized.
+
+This medical summary clarifies and organizes the current healthcare concerns and plans regarding Maria, focusing primarily on her diabetes management challenges.

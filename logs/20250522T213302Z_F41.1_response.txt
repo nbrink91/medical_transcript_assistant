@@ -1,0 +1,86 @@
+=========================
+Model: gpt-4
+Timestamp: 20250522T213302Z
+Appointment Reason: Anxiety and Sleep Issues
+ICD-10 Code: F41.1
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hi Olivia, first off, can I confirm your info is up to date?
+Patient: Yes, it's all current.
+Provider: And no new allergies?
+Patient: I'm allergic to latex just found that out during a dental visit.
+Provider: Good to know. So you mentioned anxiety and sleep problems.
+Patient: Yeah, I can't fall asleep, and I'm constantly on edge.
+Provider: Any chest pain, palpitations, or GI issues?
+Patient: Sometimes my heart races, but no stomach issues.
+Provider: Appetite okay?
+Patient: I've been skipping meals sometimes.
+Provider: Let me do a quick check. everything sounds normal. Blood pressure looks good.
+Patient: I just feel exhausted from always thinking. I can't sleep, and I'm always worrying
+Provider: I'm sorry to hear that. Any panic attacks or thoughts of hurting yourself?
+Patient: No, nothing like that. Just can't shut my brain off.
+Provider: Have you tried anything to manage it? Breathing, therapy, medications?
+Patient: I've tried some apps, but not much else.
+Provider: We can start with counseling and consider a low-dose prescription for an SSRI medication to help stabilize your mood and sleep. Many people find that helpful, especially when sleep is affected. Let's check in again in 4 weeks.
+Patient: That would be great. I just want to feel normal again.
+
+=========================
+Response
+=========================
+**Patient Info**
+- **Name:** Olivia
+- **Age:** Not discussed
+- **Sex:** Female
+- **ID:** Not discussed 
+- **DOB:** Not discussed
+
+**Appointment Reason**
+- Patient reports suffering from anxiety and sleep disturbances.
+
+**Allergies**
+- Latex allergy
+
+**History of Present Illness (HPI)**
+- Olivia has recently been experiencing significant anxiety and associated sleep problems. She reports being unable to fall asleep and feeling constantly on edge.
+
+**Review of Systems (ROS)**
+- **Cardiovascular:** Occasional heart palpitations reported; no chest pain.
+- **Gastrointestinal:** No issues reported.
+- **Psychiatric:** Reports skipped meals, constant worry, and inability to shut off thoughts. No panic attacks or thoughts of self-harm mentioned.
+
+**Physical Exam**
+- Blood pressure is within normal limits.
+- General examination conducted during the appointment yielded normal findings.
+
+**Assessment and Plan**
+1. **Anxiety and Insomnia:**
+   - Explanation: Olivia is experiencing symptoms suggestive of an anxiety disorder with concurrent insomnia, affecting her daily functioning.
+   - Next Steps:
+     1. Begin counseling to provide support and coping strategies.
+     2. Prescribe an SSRI medication to help stabilize mood and improve sleep quality.
+     3. Schedule a follow-up in 4 weeks to assess response to therapy and medication.
+
+**Medications**
+- **SSRI medication:** To help stabilize mood and improve sleep disturbances caused by anxiety.
+
+These sections represent a structured medical summary as derived from the conversation with Olivia. Further details can be enlisted and clarified in future interactions and consultations.

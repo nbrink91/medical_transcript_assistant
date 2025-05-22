@@ -1,0 +1,90 @@
+=========================
+Model: gpt-4o-mini
+Timestamp: 20250522T213734Z
+Appointment Reason: Low Back Pain After Lifting
+ICD-10 Code: M54.5
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+
+
+
+Provider: Travis, let me quickly confirm any changes in your contact info or pharmacy?
+Patient: Nope, all the same.
+Provider: Okay, and any allergies?
+Patient: I get a rash from sulfa drugs.
+Provider: Thanks. so what happened to your back?
+Patient: I lifted a box helping my neighbor move. Felt a pop, and now it's sore and stiff.
+Provider: Any numbness or tingling down your legs?
+Patient: Nope, just pain in my lower back. Hurts when I bend.
+Provider: Any bowel or bladder issues?
+Patient: Nope.
+Provider: Let's go through your systems. Headaches? Vision issues?
+Patient: No.
+Provider: Sleep okay? Appetite normal?
+Patient: Both good.
+Provider: Let me have you bend forward... any pain there?
+Patient: Yeah, a little tight.
+Provider: Tenderness on palpation... okay, I don't see signs of a herniated disc. Sounds musculoskeletal. Let's check your range of motion and see if we need imaging.
+Patient: I'd rather not do an MRI unless it's serious.
+Provider: Totally reasonable. I'll recommend NSAIDs, heat, rest, and anti-inflammatories. If it doesn't improve in 7-10 days, we'll reassess.
+Patient: Got it, thanks.
+
+=========================
+Response
+=========================
+**Patient Info**  
+- Name: Not discussed  
+- Age: Not discussed  
+- Sex: Not discussed  
+- ID: Not discussed  
+- DOB: Not discussed  
+
+**Appointment Reason**  
+- Back pain after lifting a box  
+
+**Allergies**  
+- Sulfa drugs (causes rash)  
+
+**History of Present Illness (HPI)**  
+- Patient reports lifting a box while helping a neighbor move, felt a pop in the back, and now experiences soreness and stiffness in the lower back. No numbness or tingling down the legs. Denies bowel or bladder issues.  
+
+**Review of Systems (ROS)**  
+- Headaches: No  
+- Vision issues: No  
+- Sleep: Good  
+- Appetite: Normal  
+- Other systems: Not discussed  
+
+**Physical Exam**  
+- Pain on bending forward (tightness noted)  
+- Tenderness on palpation of the lower back  
+- No signs of herniated disc observed  
+
+**Assessment and Plan**  
+1. **Musculoskeletal back pain**  
+   - Explanation: Likely caused by strain from lifting the box.  
+   - Next steps: Recommend NSAIDs, heat application, rest, and anti-inflammatory measures. Advise to reassess if symptoms do not improve in 7-10 days. 
+
+**Medications**  
+- NSAIDs (for pain relief and inflammation)  
+- Note: Specific medication names were not discussed.

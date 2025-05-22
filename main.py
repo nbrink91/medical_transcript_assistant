@@ -89,9 +89,10 @@ def main():
     api_version = os.getenv("AZURE_OPENAI_API_VERSION")
     endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
     api_key = os.getenv("AZURE_OPENAI_API_KEY")
-    model_name = "gpt-35-turbo"
-    model_name = "gpt-4o"
-    model_name = "gpt-4"
+    # model_name = "gpt-35-turbo"
+    # model_name = "gpt-4o"
+    # model_name = "gpt-4"
+    model_name = "gpt-4o-mini"
 
     client = AzureOpenAI(
         api_version=api_version,

@@ -1,0 +1,94 @@
+=========================
+Model: gpt-4
+Timestamp: 20250522T213102Z
+Appointment Reason: Asthma Flare-Up After Dust Storm
+ICD-10 Code: J45.901
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hi Jamal, I see you came in after last week's dust storm. What's going on?
+Patient: Yeah, my chest got really tight. I had to use my rescue inhaler like four times in one day.
+Provider: Did you have any wheezing or trouble catching your breath?
+Patient: Both. It calmed down after a few hours, but it scared me.
+Provider: Any ER visits or hospital stays?
+Patient: No, I just waited it out.
+Provider: You did the right thing using the inhaler."
+Provider: Jamal, before we talk about your asthma flare-up, let's verify your info. Still working at the warehouse?
+Patient: Yeah, same job.
+Provider: Okay. Any new allergies or changes in your health history?
+Patient: No new allergies. Still allergic to cats and dust mites.
+Provider: Do you have any symptoms right now? Any fever, cough, chest pain?
+Patient: No fever, just tightness in my chest.
+Provider: GI or urinary issues?
+Patient: Nope.
+Provider: Mood okay? Any anxiety or sleep issues?
+Patient: I've been more tired, but I think it's just the asthma.
+Provider: Let's take a listen. you've got mild wheezing in the upper lobes. Oxygen saturation is 97%. No signs of distress now.
+Patient: I had to use my inhaler a lot last week.
+Provider: We'll do a peak flow test, then talk about adding a controller medication, especially during monsoon season. And stay indoors when the dust kicks up.
+Patient: That makes sense. I hate feeling like that.
+
+=========================
+Response
+=========================
+**Patient Info**
+- Name: Jamal
+- Age: [Not Discussed]
+- Sex: Male
+- ID: [Not Discussed]
+- DOB: [Not Discussed]
+
+**Appointment Reason**
+- Follow-up visit after experiencing significant asthma symptoms during a recent dust storm.
+
+**Allergies**
+- Cats
+- Dust mites
+
+**History of Present Illness (HPI)**
+- Jamal experienced a severe asthma flare-up during a dust storm last week, requiring multiple uses of his rescue inhaler. Symptoms included chest tightness, wheezing, and difficulty breathing, which resolved after a few hours without hospital intervention.
+
+**Review of Systems (ROS)**
+- Respiratory: Current mild chest tightness and recent severe asthma symptoms including wheezing and difficulty breathing.
+- No reported fever, cough, or chest pain.
+- Gastrointestinal: No GI issues reported.
+- Genitourinary: No urinary issues reported.
+- Neurological/Psychological: Reports increased tiredness, attributed to asthma.
+
+**Physical Exam**
+- Respiratory: Mild wheezing in the upper lobes, oxygen saturation at 97%, no current distress.
+- General: No other abnormalities noted.
+
+**Assessment and Plan**
+1. **Asthma Exacerbation**:
+   - Possible triggers identified as exposure to dust and allergens.
+   - **Next Steps**:
+     a. Perform a peak flow test to evaluate current lung function.
+     b. Consider prescription of a controller medication to manage asthma, particularly during high-risk conditions like monsoon season.
+     c. Advise patient to stay indoors during dust storms to prevent flare-ups.
+
+**Medications**
+- Rescue Inhaler (used for acute asthma symptoms).
+
+**Additional Recommendations**
+- Continuous monitoring of asthma symptoms and adherence to asthma action plan.
+- Follow-up appointment to assess effectiveness of new medication once prescribed and discuss further preventive strategies.
