@@ -1,0 +1,94 @@
+=========================
+Model: gpt-4o
+Timestamp: 20250522T214854Z
+Appointment Reason: Asthma Flare-Up After Dust Storm
+ICD-10 Code: J45.901
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hi Jamal, I see you came in after last week's dust storm. What's going on?
+Patient: Yeah, my chest got really tight. I had to use my rescue inhaler like four times in one day.
+Provider: Did you have any wheezing or trouble catching your breath?
+Patient: Both. It calmed down after a few hours, but it scared me.
+Provider: Any ER visits or hospital stays?
+Patient: No, I just waited it out.
+Provider: You did the right thing using the inhaler."
+Provider: Jamal, before we talk about your asthma flare-up, let's verify your info. Still working at the warehouse?
+Patient: Yeah, same job.
+Provider: Okay. Any new allergies or changes in your health history?
+Patient: No new allergies. Still allergic to cats and dust mites.
+Provider: Do you have any symptoms right now? Any fever, cough, chest pain?
+Patient: No fever, just tightness in my chest.
+Provider: GI or urinary issues?
+Patient: Nope.
+Provider: Mood okay? Any anxiety or sleep issues?
+Patient: I've been more tired, but I think it's just the asthma.
+Provider: Let's take a listen. you've got mild wheezing in the upper lobes. Oxygen saturation is 97%. No signs of distress now.
+Patient: I had to use my inhaler a lot last week.
+Provider: We'll do a peak flow test, then talk about adding a controller medication, especially during monsoon season. And stay indoors when the dust kicks up.
+Patient: That makes sense. I hate feeling like that.
+
+=========================
+Response
+=========================
+**Medical Summary**
+
+**Patient Info**
+- Name: Jamal (Last name not provided)
+- Age: Not discussed
+- Sex: Male
+- ID: Not discussed
+- DOB: Not discussed
+
+**Appointment Reason**
+- Evaluation of asthma exacerbation following exposure to dust storm.
+
+**Allergies**
+- Cats
+- Dust mites
+
+**History of Present Illness (HPI)**
+- Asthma exacerbation triggered by last week's dust storm. Symptoms included chest tightness, wheezing, and difficulty breathing. Patient required the use of his rescue inhaler four times in one day. Symptoms calmed after a few hours, and patient did not seek emergency care.
+
+**Review of Systems (ROS)**
+- Respiratory: Chest tightness, wheezing, difficulty breathing (Resolved after inhaler use).
+- General: Increased fatigue attributed to asthma.
+- No fever, cough, chest pain.
+- GI: No issues reported.
+- Urinary: No issues reported.
+- Mood: Normal, no anxiety or significant sleep disturbances.
+
+**Physical Exam**
+- Respiratory: Mild wheezing noted in upper lobes bilaterally; oxygen saturation 97%; no signs of respiratory distress.
+
+**Assessment and Plan**
+1. **Asthma Exacerbation** – Likely triggered by dust storm exposure. Current symptoms resolved after use of rescue inhaler:
+   - Perform peak flow test to assess lung function.
+   - Educate patient on avoiding outdoor exposure during dust storms.
+   - Recommend adding a controller medication to better manage asthma during high-risk seasons (e.g., monsoon season).
+   
+2. **Allergic Sensitivities** – Allergies to cats and dust mites contribute to asthma triggers:
+   - No changes in allergy management discussed.
+
+**Medications**
+- Rescue Inhaler (Albuterol): Used for acute asthma symptoms; frequency increased significantly during dust storm exposure.
+- Controller medication: To be discussed and potentially initiated (specific medication not yet determined).

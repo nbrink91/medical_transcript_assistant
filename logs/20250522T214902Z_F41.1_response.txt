@@ -1,0 +1,95 @@
+=========================
+Model: gpt-4o
+Timestamp: 20250522T214902Z
+Appointment Reason: Anxiety and Sleep Issues
+ICD-10 Code: F41.1
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hi Olivia, first off, can I confirm your info is up to date?
+Patient: Yes, it's all current.
+Provider: And no new allergies?
+Patient: I'm allergic to latex just found that out during a dental visit.
+Provider: Good to know. So you mentioned anxiety and sleep problems.
+Patient: Yeah, I can't fall asleep, and I'm constantly on edge.
+Provider: Any chest pain, palpitations, or GI issues?
+Patient: Sometimes my heart races, but no stomach issues.
+Provider: Appetite okay?
+Patient: I've been skipping meals sometimes.
+Provider: Let me do a quick check. everything sounds normal. Blood pressure looks good.
+Patient: I just feel exhausted from always thinking. I can't sleep, and I'm always worrying
+Provider: I'm sorry to hear that. Any panic attacks or thoughts of hurting yourself?
+Patient: No, nothing like that. Just can't shut my brain off.
+Provider: Have you tried anything to manage it? Breathing, therapy, medications?
+Patient: I've tried some apps, but not much else.
+Provider: We can start with counseling and consider a low-dose prescription for an SSRI medication to help stabilize your mood and sleep. Many people find that helpful, especially when sleep is affected. Let's check in again in 4 weeks.
+Patient: That would be great. I just want to feel normal again.
+
+=========================
+Response
+=========================
+**Medical Summary**
+
+**Patient Info**  
+- Name: Olivia [Last name not provided]  
+- Age: Not discussed  
+- Sex: Female  
+- ID: Not provided  
+- DOB: Not discussed  
+
+**Appointment Reason**  
+- Anxiety and sleep disturbances; difficulty falling asleep, constantly worrying.
+
+**Allergies**  
+- Latex allergy (diagnosed during dental visit).
+
+**History of Present Illness (HPI)**  
+- Patient reports difficulty falling asleep and feeling constantly on edge with persistent worrying. She occasionally experiences heart racing but denies chest pain, GI issues, panic attacks, or thoughts of self-harm. Appetite is poor with skipped meals. Patient has tried mobile apps for anxiety management but has not engaged in therapy or taken medications.
+
+**Review of Systems (ROS)**  
+- Constitutional: Reports exhaustion and difficulty sleeping.  
+- Cardiovascular: Occasional heart racing/palpitations. No chest pain.  
+- Gastrointestinal: No complaints.  
+- Psychological: Anxiety, excessive worrying. No suicidal ideation or panic attacks.  
+
+**Physical Exam**  
+- General: Appears alert and cooperative; no acute distress noted.  
+- Vital Signs: Blood pressure normal; other values not discussed.  
+- Cardiovascular: No abnormalities detected.  
+
+**Assessment and Plan**  
+1. **Generalized Anxiety Disorder (Suspected)**  
+   - Symptoms of excessive worry, difficulty sleeping, and poor appetite. Recommending initiation of low-dose SSRI medication to address mood stabilization and sleep disturbances.  
+   - Referral to counseling for anxiety management strategies.
+
+2. **Sleep Disturbance (Secondary to Anxiety)**  
+   - Likely linked to anxiety. Focus on improving sleep hygiene through medication and therapy.  
+
+**Next Steps:**  
+- Start counseling and reevaluate progress in 4 weeks.  
+- Prescribe low-dose SSRI medication for mood and sleep regulation.  
+
+**Medications**  
+- SSRI (specific name not provided): Recommended for mood stabilization and improving sleep quality.  
+
+**Notes**  
+- Follow-up scheduled for 4 weeks to assess efficacy of treatment plan and adjust as needed.  

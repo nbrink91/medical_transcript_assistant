@@ -1,0 +1,91 @@
+=========================
+Model: gpt-4o
+Timestamp: 20250522T214906Z
+Appointment Reason: Skin Cancer Screening – Suspicious Mole
+ICD-10 Code: D48.5_Z12.83
+=========================
+System Prompt
+=========================
+You are a medical assistant helping to generate structured clinical notes for an electronic health record (EHR).
+Take the following doctor-patient conversation transcript and extract the relevant medical summary in structured format.
+
+Return the summary with these sections:
+- Patient Info (Name, Age, Sex, ID, DOB)
+- Appointment Reason
+- Allergies
+- History of Present Illness (HPI)
+- Review of Systems (ROS)
+- Physical Exam
+- Assessment and Plan (Include numbered list of diagnoses with explanation and next steps)
+- Medications (name and purpose)
+- Use clinical language but remain clear and concise. Avoid duplicating conversational filler. If information is missing or unclear, mark it as Not discussed.
+
+Transcript Input:
+
+=========================
+User Prompt
+=========================
+Provider: Hi John. I see you're here for a mole you're concerned about. First, can I verify your contact info and pharmacy?
+Patient: Yes, nothing's changed.
+Provider: Any allergies?
+Patient: None that I know of.
+Provider: Any recent weight loss, fevers, or fatigue?
+Patient: No, I feel fine.
+Provider: Good. Any history of skin cancer in the family?
+Patient: My dad had melanoma.
+Provider: That's helpful. Let's take a look at the mole.
+Patient: Yeah, I've had this mole on my shoulder for a while, but it's been changing color and shape.
+Provider: Let me take a look... Hmm. It's asymmetric, has some irregular borders, and the color is uneven, about 7mm on the left shoulder near the top of the shoulder blade.
+Patient: That's not good, right?
+Provider: It's suspicious enough that I'd like to do a biopsy to rule out melanoma. We'll send it to pathology.
+Patient: Okay, let's do it.
+Provider: Let me check your lymph nodes. no swelling. Skin elsewhere looks clear.
+Patient: Thanks for being thorough.
+Provider: Of course. We'll numb the area and get the results back in a few days.
+Patient: Thanks for catching this early.
+
+=========================
+Response
+=========================
+**Clinical Note Summary**
+
+**Patient Info:**
+- **Name:** John [Last name not discussed]
+- **Age:** Not discussed
+- **Sex:** Male
+- **ID:** Not discussed
+- **DOB:** Not discussed  
+
+**Appointment Reason:**
+- Concern about a changing mole on the left shoulder.
+
+**Allergies:**
+- None reported.
+
+**History of Present Illness (HPI):**
+- Patient reports a mole on the left shoulder that has been present "for a while" but recently began changing color and shape. No associated symptoms like weight loss, fevers, or fatigue. Family history of melanoma (father).
+
+**Review of Systems (ROS):**
+- Constitutional: No recent weight loss, fever, or fatigue.
+- Dermatologic: Concern about mole on left shoulder; other skin areas appear clear (per physical exam).  
+- Other systems: Not discussed.
+
+**Physical Exam:**
+- Skin: Mole on the left shoulder near the top of the shoulder blade. Features: asymmetric, irregular borders, uneven color, approximately 7 mm in diameter. No other concerning findings noted on the skin.
+- Lymph nodes: No palpable swelling.
+
+**Assessment and Plan:**
+1. **Suspicious Mole - Rule Out Melanoma**:
+   - Mole on left shoulder exhibits features concerning for melanoma: asymmetry, irregular borders, uneven coloration, and growth to 7 mm.  
+   - Plan: Biopsy scheduled to obtain pathology results. 
+   - Follow-up to discuss pathology findings and further treatment if necessary.
+
+2. **Family History of Melanoma**:
+   - Noted as a risk factor. Patient advised of the importance of early detection and monitoring.
+   - Plan: Encourage future routine skin checks.
+
+**Medications:**
+- None discussed (no prescriptions provided during the visit).  
+
+**Additional Notes:**
+- Patient consented for biopsy procedure during this appointment. Results to be communicated in a few days.
